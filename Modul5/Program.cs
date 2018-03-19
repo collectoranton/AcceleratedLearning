@@ -11,6 +11,8 @@ namespace Modul5
         {
             //WorkWithObjects();
 
+            Console.WriteLine("GitTest");
+
             var point = new Point(3, 4);
             Console.WriteLine(point);
             SetPoint(point, 999, 888);
