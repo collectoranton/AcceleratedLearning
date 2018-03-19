@@ -11,7 +11,7 @@ namespace Modul5
         {
             //WorkWithObjects();
 
-            Console.WriteLine("GitTest");
+            Console.WriteLine("GitTest2");
 
             var point = new Point(3, 4);
             Console.WriteLine(point);
