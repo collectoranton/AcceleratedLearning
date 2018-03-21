@@ -23,7 +23,7 @@ namespace Modul3
             //RandomGuess();
 
             Console.Write("Enter a number: ");
-            //var number = int.Parse(Console.ReadLine());
+            var number = int.Parse(Console.ReadLine());
 
             Console.WriteLine((int.Parse(Console.ReadLine()) < 20) ? $"{number} is lower than 20" : (number == 20) ? $"{number} is equal to 20" : $"{number} is higher than 20");
 
