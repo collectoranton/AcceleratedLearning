@@ -17,7 +17,7 @@ namespace Modul8
                 try
                 {
                     streamWriter = new StreamWriter(path);
-                    Console.WriteLine($"The file '{path}' is now created.");
+                    Console.WriteLine($"The file '{path}' is now created.c");
                     break;
                 }
                 //catch (UnauthorizedAccessException e)
@@ -38,6 +38,7 @@ namespace Modul8
                 }
             }
 
+            File.Create();
 
             //streamWriter.Close();
         }
